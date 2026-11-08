@@ -1,4 +1,4 @@
-# finddoc-ca
+# FindDoc
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-finddoc-ca is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://finddoc.ca/
+FindDoc provides a structured REST API and MCP access to Greater Toronto Area doctors, specialists, clinics, languages, availability signals, and data freshness. It complements the CPSO physician-registration source with additional data such as clinic reviews, language support, and real-time availability, offering best‑effort freshness reporting and encouraging users to confirm details directly with clinics.
+
+**Areas:** Healthcare · API · Doctors · Clinics · Canada
+
+## FindDoc on APIs.io
+
+Everything profiled for FindDoc is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/finddoc-ca/](https://apis.io/providers/finddoc-ca/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [FindDoc Clinics API](https://apis.io/apis/finddoc-ca/finddoc-ca-clinics-api/) — Clinic search, detail, reviews, and signals.
+- [FindDoc Doctors API](https://apis.io/apis/finddoc-ca/finddoc-ca-doctors-api/) — Doctor search and detail by CPSO number.
+- [FindDoc Health API](https://apis.io/apis/finddoc-ca/finddoc-ca-health-api/) — Liveness and readiness.
+- [FindDoc Metadata API](https://apis.io/apis/finddoc-ca/finddoc-ca-metadata-api/) — Supported specialties and languages.
+- [FindDoc Specialists API](https://apis.io/apis/finddoc-ca/finddoc-ca-specialists-api/) — Specialist clinic search.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Finddoc Ca Agentic Access](https://apis.io/agentic-access/finddoc-ca/finddoc-ca-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FindDoc API Rules](https://apis.io/rules/finddoc-ca/finddoc-ca-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Finddoc Ca Authentication](https://apis.io/security/finddoc-ca/finddoc-ca-authentication/)
+- [Finddoc Ca Domain Security](https://apis.io/security/finddoc-ca/finddoc-ca-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://finddoc.ca/)
+- [Documentation](https://www.finddoc.ca/developers)
+- [Getting started](https://www.finddoc.ca/developers)
+- [API reference](https://www.finddoc.ca/openapi.json)
+- [Pricing](https://www.finddoc.ca)
+- [Support](https://www.finddoc.ca/contact)
+
+## API Evangelist rating
+
+**Kin Score 41.7** — developing · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 48.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 10.5 |
+
+**Agent readiness 42.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 13.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/finddoc-ca/](https://apis.io/providers/finddoc-ca/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FindDoc: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/finddoc-ca/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
